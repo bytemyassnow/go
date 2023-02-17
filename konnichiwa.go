@@ -1,7 +1,5 @@
-package main
+package repo
 
-import "fmt"
-
-func main() {
-  fmt.Println("Konnichiwa from Github")
+func SayHi() string {
+  return string("Konnichiwa from Github")
 }
